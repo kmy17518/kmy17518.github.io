@@ -1,3 +1,12 @@
+{% if site.cv_pdf %}
+          <a
+            href="{{ site.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="cv"
+            ><i class="fa-solid fa-download"></i
+          ></a>
+{% endif %}
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
