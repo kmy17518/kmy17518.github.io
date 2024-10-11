@@ -175,6 +175,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-title {
+    margin-left: 1rem;
     color: var(--global-text-color);
   }
 
@@ -491,6 +492,7 @@ footer.sticky-bottom {
 .table-cv-map {
   background-color: transparent;
   border: none;
+  margin-left: 2.5rem;
   color: var(--global-text-color);
 }
 
